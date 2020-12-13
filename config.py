@@ -32,4 +32,5 @@ Configuration={
     "PressureLowerBound":7,
     "PressureUpperBound":11,
     "multiplier":11.84,
+    "Vaccum-Pump-Pin":26
 }
