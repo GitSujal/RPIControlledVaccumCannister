@@ -1,0 +1,17 @@
+2020-12-12 18:52:41,813 - root - DEBUG - Importing config file success
+2020-12-12 18:52:41,813 - root - ERROR - Error occured while importing modules...
+Traceback (most recent call last):
+  File "testDHT.py", line 22, in <module>
+    import Adafruit_DHT
+ModuleNotFoundError: No module named 'Adafruit_DHT'
+2020-12-12 18:53:42,640 - root - DEBUG - Importing config file success
+2020-12-12 18:53:42,640 - root - ERROR - Error occured while importing modules...
+Traceback (most recent call last):
+  File "testDHT.py", line 22, in <module>
+    import Adafruit_DHT
+ModuleNotFoundError: No module named 'Adafruit_DHT'
+2020-12-12 18:53:42,641 - root - ERROR - Error occured while reading from DHT
+Traceback (most recent call last):
+  File "testDHT.py", line 29, in <module>
+    DHT_SENSOR = Adafruit_DHT.DHT22
+NameError: name 'Adafruit_DHT' is not defined

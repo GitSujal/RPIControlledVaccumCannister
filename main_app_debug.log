@@ -1,0 +1,93 @@
+2020-12-12 18:08:13,527 - root - INFO - Starting App in debug mode, everything gets logged
+2020-12-12 18:08:13,533 - root - DEBUG - Importing config file success
+2020-12-12 18:08:13,534 - root - ERROR - Error occured while importing modules...
+Traceback (most recent call last):
+  File "/Users/asmu/Desktop/My Projects/RPIProject/Final/main.py", line 70, in main
+    import ST7789
+ModuleNotFoundError: No module named 'ST7789'
+2020-12-12 18:08:13,534 - root - ERROR - Error occured while importing modules...
+Traceback (most recent call last):
+  File "/Users/asmu/Desktop/My Projects/RPIProject/Final/main.py", line 92, in main
+    import Adafruit_DHT
+ModuleNotFoundError: No module named 'Adafruit_DHT'
+2020-12-12 18:08:13,535 - root - ERROR - Error occured while importing modules...
+Traceback (most recent call last):
+  File "/Users/asmu/Desktop/My Projects/RPIProject/Final/main.py", line 106, in main
+    from ads1015 import ADS1015
+ModuleNotFoundError: No module named 'ads1015'
+2020-12-12 18:08:13,535 - root - ERROR - Failed to read data from temp sensor using dummy values
+Traceback (most recent call last):
+  File "/Users/asmu/Desktop/My Projects/RPIProject/Final/main.py", line 129, in main
+    humidity, temperature = Adafruit_DHT.read_retry(DHT_SENSOR, DHT_PIN)
+UnboundLocalError: local variable 'Adafruit_DHT' referenced before assignment
+2020-12-12 18:08:13,535 - root - ERROR - Failed to read data from vaccum sensor using dummy values
+Traceback (most recent call last):
+  File "/Users/asmu/Desktop/My Projects/RPIProject/Final/main.py", line 141, in main
+    negPressure = ads1015.get_compensated_voltage(channel=CHANNEL, reference_voltage=reference)
+UnboundLocalError: local variable 'ads1015' referenced before assignment
+2020-12-12 18:08:13,535 - root - INFO - Temp=30.92  Humidity=0.9 Neg Pressure=10.1
+2020-12-12 18:08:13,541 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-12-12 18:08:13,541 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 8192
+2020-12-12 18:08:13,586 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-12-12 18:08:13,587 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 41 9
+2020-12-12 18:08:13,587 - PIL.PngImagePlugin - DEBUG - STREAM b'iCCP' 62 2639
+2020-12-12 18:08:13,587 - PIL.PngImagePlugin - DEBUG - iCCP profile name b'Photoshop ICC profile'
+2020-12-12 18:08:13,587 - PIL.PngImagePlugin - DEBUG - Compression method 0
+2020-12-12 18:08:13,587 - PIL.PngImagePlugin - DEBUG - STREAM b'iTXt' 2713 14877
+2020-12-12 18:08:13,587 - PIL.PngImagePlugin - DEBUG - STREAM b'cHRM' 17602 32
+2020-12-12 18:08:13,587 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 17646 31241
+2020-12-12 18:08:13,633 - root - INFO - Image Produced Successfully
+2020-12-12 18:08:13,633 - root - ERROR - Error producing or displaying image
+Traceback (most recent call last):
+  File "/Users/asmu/Desktop/My Projects/RPIProject/Final/main.py", line 164, in main
+    image = image.resize(480,480)
+  File "/Users/asmu/opt/anaconda3/lib/python3.7/site-packages/PIL/Image.py", line 1834, in resize
+    message + " Use " + ", ".join(filters[:-1]) + " or " + filters[-1]
+ValueError: Unknown resampling filter (480). Use Image.NEAREST (0), Image.LANCZOS (1), Image.BILINEAR (2), Image.BICUBIC (3), Image.BOX (4) or Image.HAMMING (5)
+2020-12-12 18:09:03,605 - root - DEBUG - Importing config file success
+2020-12-12 18:09:03,606 - root - ERROR - Error occured while importing modules...
+Traceback (most recent call last):
+  File "/Users/asmu/Desktop/My Projects/RPIProject/Final/main.py", line 70, in main
+    import ST7789
+ModuleNotFoundError: No module named 'ST7789'
+2020-12-12 18:09:03,607 - root - ERROR - Error occured while importing modules...
+Traceback (most recent call last):
+  File "/Users/asmu/Desktop/My Projects/RPIProject/Final/main.py", line 92, in main
+    import Adafruit_DHT
+ModuleNotFoundError: No module named 'Adafruit_DHT'
+2020-12-12 18:09:03,607 - root - ERROR - Error occured while importing modules...
+Traceback (most recent call last):
+  File "/Users/asmu/Desktop/My Projects/RPIProject/Final/main.py", line 106, in main
+    from ads1015 import ADS1015
+ModuleNotFoundError: No module named 'ads1015'
+2020-12-12 18:09:03,607 - root - ERROR - Failed to read data from temp sensor using dummy values
+Traceback (most recent call last):
+  File "/Users/asmu/Desktop/My Projects/RPIProject/Final/main.py", line 129, in main
+    humidity, temperature = Adafruit_DHT.read_retry(DHT_SENSOR, DHT_PIN)
+UnboundLocalError: local variable 'Adafruit_DHT' referenced before assignment
+2020-12-12 18:09:03,607 - root - ERROR - Failed to read data from vaccum sensor using dummy values
+Traceback (most recent call last):
+  File "/Users/asmu/Desktop/My Projects/RPIProject/Final/main.py", line 141, in main
+    negPressure = ads1015.get_compensated_voltage(channel=CHANNEL, reference_voltage=reference)
+UnboundLocalError: local variable 'ads1015' referenced before assignment
+2020-12-12 18:09:03,607 - root - INFO - Temp=30.92  Humidity=0.9 Neg Pressure=10.1
+2020-12-12 18:09:03,608 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-12-12 18:09:03,608 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 8192
+2020-12-12 18:09:03,648 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-12-12 18:09:03,648 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 41 9
+2020-12-12 18:09:03,648 - PIL.PngImagePlugin - DEBUG - STREAM b'iCCP' 62 2639
+2020-12-12 18:09:03,648 - PIL.PngImagePlugin - DEBUG - iCCP profile name b'Photoshop ICC profile'
+2020-12-12 18:09:03,648 - PIL.PngImagePlugin - DEBUG - Compression method 0
+2020-12-12 18:09:03,648 - PIL.PngImagePlugin - DEBUG - STREAM b'iTXt' 2713 14877
+2020-12-12 18:09:03,648 - PIL.PngImagePlugin - DEBUG - STREAM b'cHRM' 17602 32
+2020-12-12 18:09:03,648 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 17646 31241
+2020-12-12 18:09:03,691 - root - INFO - Image Produced Successfully
+2020-12-12 18:09:03,691 - root - ERROR - Error producing or displaying image
+Traceback (most recent call last):
+  File "/Users/asmu/Desktop/My Projects/RPIProject/Final/main.py", line 164, in main
+    image = image.resize(480,480)
+  File "/Users/asmu/opt/anaconda3/lib/python3.7/site-packages/PIL/Image.py", line 1834, in resize
+    message + " Use " + ", ".join(filters[:-1]) + " or " + filters[-1]
+ValueError: Unknown resampling filter (480). Use Image.NEAREST (0), Image.LANCZOS (1), Image.BILINEAR (2), Image.BICUBIC (3), Image.BOX (4) or Image.HAMMING (5)
+2020-12-12 18:09:08,638 - parso.cache - DEBUG - pickle loaded: /Users/asmu/opt/anaconda3/lib/python3.7/site-packages/PIL/Image.py
+2020-12-12 18:09:08,680 - parso.cache - DEBUG - pickle loaded: /Users/asmu/opt/anaconda3/lib/python3.7/site-packages/jedi/third_party/typeshed/stdlib/2and3/builtins.pyi

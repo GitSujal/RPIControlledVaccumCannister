@@ -1,0 +1,6 @@
+2020-12-12 16:55:10,297 - root - DEBUG - Importing Config success
+2020-12-12 16:55:10,298 - root - ERROR - Error in process: 
+Traceback (most recent call last):
+  File "testADS.py", line 9, in <module>
+    from ads1015 import ADS1015
+ModuleNotFoundError: No module named 'ads1015'

@@ -1,0 +1,41 @@
+2020-12-12 17:39:04,489 - root - ERROR - Error occured while importing configuration...
+Traceback (most recent call last):
+  File "main.py", line 49, in main
+    DHT_SENSOR = Adafruit_DHT.DHT22
+UnboundLocalError: local variable 'Adafruit_DHT' referenced before assignment
+2020-12-12 17:39:04,490 - root - ERROR - Error occured while importing modules...
+Traceback (most recent call last):
+  File "main.py", line 59, in main
+    import ST7789
+ModuleNotFoundError: No module named 'ST7789'
+2020-12-12 17:39:04,490 - root - ERROR - Error occured while importing modules...
+Traceback (most recent call last):
+  File "main.py", line 81, in main
+    import Adafruit_DHT
+ModuleNotFoundError: No module named 'Adafruit_DHT'
+2020-12-12 17:39:04,491 - root - ERROR - Error occured while importing modules...
+Traceback (most recent call last):
+  File "main.py", line 95, in main
+    from ads1015 import ADS1015
+ModuleNotFoundError: No module named 'ads1015'
+2020-12-12 17:39:04,512 - root - ERROR - Failed to read data from temp sensor using dummy values
+Traceback (most recent call last):
+  File "main.py", line 120, in main
+    humidity, temperature = Adafruit_DHT.read_retry(DHT_SENSOR, DHT_PIN)
+UnboundLocalError: local variable 'Adafruit_DHT' referenced before assignment
+2020-12-12 17:39:04,513 - root - ERROR - Failed to read data from vaccum sensor using dummy values
+Traceback (most recent call last):
+  File "main.py", line 132, in main
+    negPressure = ads1015.get_compensated_voltage(channel=CHANNEL, reference_voltage=reference)
+UnboundLocalError: local variable 'ads1015' referenced before assignment
+2020-12-12 17:39:05,088 - root - ERROR - Error producing or displaying image
+Traceback (most recent call last):
+  File "main.py", line 152, in main
+    image,arrowRotation=produceImage(prevRotation=arrowRotation,Configuration=Configuration,Readings=Readings)
+  File "main.py", line 26, in produceImage
+    d.text(Configuration["Left-Top-Coordinate-Text"],Readings[Configuration["Left-Top"]],font=fnt,fill=(255,255,255))
+  File "/Users/asmu/opt/anaconda3/lib/python3.7/site-packages/PIL/ImageDraw.py", line 280, in text
+    if self._multiline_check(text):
+  File "/Users/asmu/opt/anaconda3/lib/python3.7/site-packages/PIL/ImageDraw.py", line 256, in _multiline_check
+    return split_character in text
+TypeError: argument of type 'float' is not iterable

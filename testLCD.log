@@ -1,0 +1,21 @@
+2020-12-12 19:02:39,371 - root - DEBUG - Importing config file success
+2020-12-12 19:02:39,371 - root - ERROR - Error occured while importing LCD module
+Traceback (most recent call last):
+  File "testLCD.py", line 22, in <module>
+    import ST7789 as ST7789
+ModuleNotFoundError: No module named 'ST7789'
+2020-12-12 19:02:39,371 - root - ERROR - Error occured while Initialising LCD module...
+Traceback (most recent call last):
+  File "testLCD.py", line 31, in <module>
+    disp = ST7789.ST7789(
+NameError: name 'ST7789' is not defined
+2020-12-12 19:02:39,741 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-12-12 19:02:39,741 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 41 9
+2020-12-12 19:02:39,741 - PIL.PngImagePlugin - DEBUG - STREAM b'gAMA' 62 4
+2020-12-12 19:02:39,742 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 78 25
+2020-12-12 19:02:39,742 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 115 208283
+2020-12-12 19:02:39,742 - root - ERROR - Error occured while displaying image in LCD module...
+Traceback (most recent call last):
+  File "testLCD.py", line 58, in <module>
+    image = image.resize((WIDTH, HEIGHT))
+NameError: name 'WIDTH' is not defined
